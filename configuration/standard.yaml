@@ -1,0 +1,34 @@
+# Dataset configuration
+dataset:
+  image_folder: '/home/michaeld/workdir/GenAI/data/sample'
+  processed_folder: '/home/michaeld/workdir/GenAI/data/processed'  # Set to null to use image_folder by default
+  file_extensions:
+    - '.png'
+    - '.jpg'
+    - '.jpeg'
+
+# Model configuration
+model:
+  vocab_size: 50257  # GPT-2 default vocabulary size
+  n_positions: 1024
+  n_ctx: 1024
+  n_embd: 768
+  n_layer: 12
+  n_head: 12
+
+# Training configuration
+training:
+  num_epochs: 3
+  batch_size: 4
+  seq_length: 1024
+  learning_rate: 5.0e-5  # Explicitly define as float
+  max_norm: 1.0  # Explicitly define as float
+
+# Generation configuration
+generation:
+  prompt: "Patient admitted with symptoms of"
+  max_length: 150
+
+# Paths
+paths:
+  model_save_path: 'models/1bit_gpt/HC_GBT.pth'
