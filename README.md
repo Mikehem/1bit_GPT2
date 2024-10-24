@@ -1,10 +1,10 @@
 # 1-Bit GPT-2 for OCR
 
-This project implements a 1-bit quantized GPT-2 model for Optical Character Recognition (OCR) tasks. It combines the power of transformer-based language models with efficient 1-bit quantization techniques to create a memory-efficient OCR system.
+This project implements a 1-bit quantized GPT-2 model. It combines the power of transformer-based language models with efficient 1-bit quantization techniques to create a memory-efficient OCR system.
 
 ## Project Overview
 
-The 1-Bit GPT-2 OCR system is designed to process images containing text and generate accurate transcriptions. By utilizing a 1-bit quantized version of the GPT-2 model, we achieve significant memory savings while maintaining high OCR accuracy.
+The 1-Bit GPT-2 OCR system is designed to process images containing text and train a model from scratch. By utilizing a 1-bit quantized version of the GPT-2 model, we achieve significant memory savings while maintaining accuracy.
 
 ### Key Features
 
@@ -17,10 +17,11 @@ The 1-Bit GPT-2 OCR system is designed to process images containing text and gen
 
 To get started with this project, please refer to the following documentation:
 
+- [Introduction to GPT-2](docs/Introduction_GPT.md)
 - [1-Bit GPT-2 Model Overview](docs/1bit_GPT.md)
 - [Custom Training Data Preparation](docs/1bit_GPT_Training_custom.md)
 - [Donut Model with 1-Bit GPT-2 Integration](docs/Donut_enhanced.md)
-- [Introduction to GPT-2](docs/Introduction_GPT.md)
+
 
 ## Installation
 
